@@ -1,3 +1,8 @@
+Compilation instructions::
+1> Install Eigen,libsndfile and Sox framework of C++ and add their paths to the compilation path of Visual Studio Code
+2> Then compile using the following command
+3> For the sake of simplicity currently I have already set the signal1 and signal2 alongwith one interference wave and one wave which will show no interference. This can showcase the fact that the program is running correctly and aptly.
+
 g++ -o interference_detection main.cpp \
     -I/opt/homebrew/Cellar/libsndfile/1.2.2/include \
     -I/opt/homebrew/Cellar/flac/1.4.3/include \
